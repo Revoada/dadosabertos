@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node .build/backend/app.js",
-    "heroku-postbuild": "gulp build"
+    "postinstall": "gulp build"
   },
   "main": "./backend/app.js",
   "dependencies": {
