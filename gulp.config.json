@@ -2,8 +2,11 @@
   "src": {
     "vendorjs": [
       "bower_components/angular/angular.min.js",
+      "bower_components/angular/angular.min.js.map",
       "bower_components/angular-route/angular-route.min.js",
-      "bower_components/jquery/dist/jquery.min.js"
+      "bower_components/angular-route/angular-route.min.js.map",
+      "bower_components/jquery/dist/jquery.min.js",
+      "bower_components/jquery/dist/jquery.min.map"
     ],
     "app": "frontend/**/*",
     "appjs": "frontend/**/*.js",
