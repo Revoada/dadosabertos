@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./backend/app.js"
+    "start": "node .build/backend/app.js",
+    "heroku-postbuild": "gulp build"
   },
   "main": "./backend/app.js",
   "dependencies": {
