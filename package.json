@@ -6,7 +6,7 @@
     "start": "node .build/backend/app.js",
     "postinstall": "gulp stylus"
   },
-  "main": "./backend/app.js",
+  "main": "node .build/backend/app.js",
   "dependencies": {
     "body-parser": "~1.12.4",
     "express": "~4.12.4",
